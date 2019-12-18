@@ -1,0 +1,216 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "c55b13ac-21be-11ea-a30e-f832e4890ef7",
+            "deck_config_uuid": "c55a028b-21be-11ea-be8a-f832e4890ef7",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "Tenta",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Lateralplattans mesoderm är indelat i två blad. Ett av dessa kallas för somatiskt mesoderm.<br><br>Vad av nedanstående har sitt ursprung från detta blad?",
+                        "Kroppshåligheternas parietalmembran<br><br>Kroppshåligheternas visceralmembran<br><br>Mesenteriet<br><br>Orofaryngealmembranet",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "F|xf.sd6`q",
+                    "note_model_uuid": "c55bd6d2-21be-11ea-b05b-f832e4890ef7",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "c55bd6d5-21be-11ea-9738-f832e4890ef7",
+            "deck_config_uuid": "c55a028b-21be-11ea-be8a-f832e4890ef7",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "Homeostas ",
+            "notes": []
+        }
+    ],
+    "crowdanki_uuid": "c55a028a-21be-11ea-8605-f832e4890ef7",
+    "deck_config_uuid": "c55a028b-21be-11ea-be8a-f832e4890ef7",
+    "deck_configurations": [
+        {
+            "DisableFW": 0,
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "c55a028b-21be-11ea-be8a-f832e4890ef7",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    4,
+                    12,
+                    1400
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 300,
+            "name": "Default",
+            "new": {
+                "LBEIMinAfter": 4,
+                "LBEIMinBefore": 4,
+                "LBGIMinAfter": 1,
+                "LBGIMinBefore": 1,
+                "bury": false,
+                "delays": [
+                    3,
+                    13,
+                    700
+                ],
+                "initialFactor": 2000,
+                "ints": [
+                    1,
+                    3,
+                    7
+                ],
+                "order": 0,
+                "perDay": 10,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "timer": 1
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "name": "SharedMedicine",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c55bd6d2-21be-11ea-b05b-f832e4890ef7",
+            "css": "/*The AnKing wishes you the best of luck! Be sure to check out our YouTube channel and Instagram for all things Anki and Med School related (including how to customize this card type and use these decks):  \n\t\twww.youtube.com/TheAnKing\n\t\t\t@ankingmed    \t\t\t*/\n\n/*~~~~~~~~USER CUSTOMIZATION START~~~~~~~~~*/\n/* You can choose colors at www.htmlcolorcodes.com */\n\n/* TIMER ON/OFF */\n\t.timer { display: block; } /* 'none' or 'block' */\n/* TAGS ON/OFF */\n\t#tags-container { display: block; } /* ‘none’ or ‘block’ */\n/* ANKING IMAGE HYPERLINK ON/OFF */\n\t#pic {display: block; } /* 'none' or 'block' */\n\n/* STYLE FOR CLOZE DELETIONS */\n.cloze, .cloze b, .cloze u, .cloze i { font-weight: bold; color: MediumSeaGreen !important;}\n\n/*FONT SIZE*/\n     /* DESKTOP */ html \n\t{ font-size: 28px; }\n     /* MOBILE */ .mobile\n         { font-size: 28px; }\n\t\t/* NOTE: anything with 'px' will keep a font that size indefinitely, 'rem' is a fraction of this size above and allows all text to change size with the above setting */\n\n/*HINT FONT SIZE*/ .hints \n\t{ font-size: .85rem; }\n   /*First Aid, Sketchy, Physeo, Additional Resources Font Size*/\n\t#firstaid, #sketchy, #physeo, #additional { font-size: .5rem !important; } \n   /*First Aid, Sketchy, Physeo, Additional Resources Font Size on Mobile*/\n\t.mobile #firstaid, .mobile #sketchy, .mobile #physeo, .mobile #additional { font-size: .7rem!important; }\n\n/*FONT STYLE*/\t\n\t.card, kbd { font-family: Arial Greek, Arial; } /*Step exam's font is Arial Greek*/\n/*MAX IMAGE HEIGHT*/\n\timg {max-height: 30rem; }\n /*MAX IMAGE WIDTH*/\n\t\t#extra img, #lecture img, #missed img, #pathoma img, #bnb img {max-width: 85%!important; }\n\t#firstaid img, #sketchy img, #physeo img, #additional img {max-width: 60%!important; }\n\n\n/* ~~COLORS~~ */\n/*DEFAULT TEXT COLOR*/ \n\t.card { color: black; }\n/*BACKGROUND COLOR*/ \n\t.card, #tags-container { background-color: #D1CFCE; }\n    /*TIMER COUNTDOWN COLOR*/\n \t.timer { color: transparent; }\n/* CLOZE COLOR */\n\t.cloze { color: blue; }\n/* \"EXTRA\" FIELD COLOR */\n\t#extra { color: navy; }\n/* HINT COLOR*/\n\ta[href=\"#\"] { color: blue; }\n/* HINT REVEAL COLOR */\n\t.hints { color: #4297F9; }\n   /* Missed Questions Reveal Color */\n\t#missed { color: red; }\n\n/* ~~NIGHT MODE COLORS~~ */\n/* NM DEFAULT TEXT COLOR*/ \n\t.nightMode.card, .night_mode .card\n     { color: #FFFAFA !important; }\n/* NM BACKGROUND COLOR*/ \n\t.nightMode.card, .night_mode .card, .nightMode #tags-container, .night_mode #tags-container\n     { background-color: #272828 !important; }\n/* NM CLOZE COLOR */\n \t.nightMode .cloze, .night_mode .cloze { color: #4297F9!important; }\n/* NM \"EXTRA\" FIELD COLOR */\n\t.nightMode #extra, .night_mode #extra { color: magenta; }\n/* NM HINT COLOR */\n\t.nightMode a[href=\"#\"], .night_mode a[href=\"#\"] { color: #4297F9!important; }\n/* NM HINT REVEAL COLOR */\n\t.nightMode .hints, .night_mode .hints { color: cyan;}\n\n/* COLOR ACCENTS FOR BOLD-ITALICS-UNDERLINE*/\nb { color: inherit; }\nu { color: inherit; } \ni  { color: inherit; }\n\n/* ~~~~~~~~END CUSTOMIZATION~~~~~~~~ */\n\nhtml { min-height: 100%; display: flex; flex-direction: column; }\n\n#qa { margin-top: 15px; padding-bottom: 2rem; }\n\n/* Formatting For Timer */\n.timer {\nfont-size: 20px;\nmargin: 12em auto auto auto;\n}\n\n/* Styling For Whole Card*/\n.card {\ntext-align: center;\nfont-size: 1rem;\nheight: 100%;\nmargin: 0px 15px;\nflex-grow: 1;\npadding-bottom: 1em;\n}\n\n/* Details For IMAGES */\n.mobile .card img {max-width: 100%!important; }\n.mobile .card {margin: 0ex 0em;}\n\n#extra img { min-width: 30%!important; }\n.mobile #extra img, .mobile #lecture img, .mobile #missed img, .mobile #pathoma img, .mobile #bnb img, .mobile #firstaid img, .mobile #sketchy img, .mobile #physeo img, .mobile #additional img {max-width: 100%!important; }\n\n/* Classes for individual cards */\n.image40 img { width: 40%!important; }\n.image50 img { width: 50%!important; }\n.image60 img { width: 60%!important; }\n.image70 img { width: 70%!important; }\n.image80 img { width: 80%!important; }\n.image90 img { width: 90%!important; }\n.image 40 img, .image 50 img, .image 60 img, .image 70 img, .image 80 img, .image 90 img { display:block; margin-right:auto; margin-left: auto; }\n.mobile .image40 img, .mobile .image50 img, .mobile .image60 img, .mobile .image70 img, .mobile .image80 img, .mobile .image90 img {width: auto!important;}\n\n/* Cloze format */\n.cloze { font-weight: bold; }\n\n/* Adjustments For Cloze Edit In Review On Mobile */\n.clozefield, .mobile .editcloze { display: none; }\n.editcloze, .mobile .clozefield { display:  block; }\n\n/* BEGIN HINT FIELDS */\n\n/* Hint Link */\na[href=\"#\"] {\n font-style: italic;\n padding: 0 !important;\n}\n\n/* Text When Hint Is Shown*/\n.hints { font-style: italic; }\n\n/* Put Bottom Hints Lower */\n#firstaid { padding-top: 40px!important; }\n\n.hints + #extra { margin-top: 1rem; } /*add spacing between hints and extra field*/\n/* END HINT FIELDS  */\n\n/* EXTRA FIELD */\n#extra { font-style: italic; font-size: 1rem;}\n\n\n/* Fix to make pop-up dictionary images the right size */\n.qtip img {\n   max-width: 95% !important;\n   max-height: 95% !important;\n}\n\n/* TAGS */\n/* Container To Fix Tags At Bottom Of Screen */\n#tags-container{\nposition: fixed;\nbottom: .5px;\npadding-bottom: 0px;\nwidth: 100%;\nline-height: .45rem;\nmargin-left: -15px;\n}\n\n/* Clickable Tags (need to download the add-on) */\nkbd {\n display: inline-block;\n letter-spacing: .2px;\n font-weight: bold;\n font-size: 12px !important;\n text-shadow: none !important;\n padding: 0.05rem 0.1rem !important;\n margin: 1px -3px !important;\n border-radius: 4px;\n border-width: 1.5px !important;\n border-style: solid;\n background-color: transparent !important;\n box-shadow: none !important;\n opacity: 0.5;\n vertical-align: middle;\n}\n\n/* Tag Becomes More Visible On Hover */\nkbd:hover { opacity: 1; transition: opacity 0.2s ease; }\n\n/* Tag Colors */\nkbd:nth-of-type(1n+0) { border-color: #F44336; color: #F44336; }\nkbd:nth-of-type(2n+0) { border-color: #9C27B0; color: #9C27B0; }\nkbd:nth-of-type(3n+0) { border-color: #3F51B5; color: #3F51B5; }\nkbd:nth-of-type(4n+0) { border-color: #03A9F4; color: #03A9F4; }\nkbd:nth-of-type(5n+0) { border-color: #009688; color: #009688; }\nkbd:nth-of-type(6n+0) { border-color: #C0CA33; color: #C0CA33; }\nkbd:nth-of-type(7n+0) { border-color: #FF9800; color: #FF9800}\nkbd:nth-of-type(8n+0) { border-color: #FF5722; color: #FF5722; }\nkbd:nth-of-type(9n+0) { border-color: #9E9E9E; color: #9E9E9E; }\nkbd:nth-of-type(10n+0) { border-color: #607D8B; color: #607D8B; }\n\n/* Tag Mobile Adjustments */\n.mobile kbd { opacity: .9; margin: 1px !important; display: inline-block; font-size: 10px !important; }\n.mobile #tags-container {line-height:0.6rem; margin-left: 0px; }",
+            "flds": [
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Fråga",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 18,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Svarsalternativ",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "MS Shell Dlg 2",
+                    "media": [],
+                    "name": "Förklaring",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 18,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Föreläsningsanteckning",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Minnesregler",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Anatomi",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Histologi",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Övrigt",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Tentafrågor - Läk",
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<div class=clozefield>{{cloze:Fråga}}</div>\n\n<!-- EDIT CLOZE DURING REVIEW-change below to  \"edit:cloze:Text\" for editable field, but be sure to have the correct add-on installed-->\n\n<div class=editcloze>{{cloze:Fråga}}</div>\n\n<hr>\n\n{{#Förklaring}}<div id=extra>{{edit:Förklaring}}</div>{{/Förklaring}}\n\n{{#Föreläsningsanteckning}}<div class=hints id=lecture>{{hint:Föreläsningsanteckning}}</div>{{/Föreläsningsanteckning}}\n\n{{#Minnesregler}}<div class=hints id=missed>{{hint:Minnesregler}}</div>{{/Minnesregler}}\n\n{{#Anatomi}}<div class=hints id=pathoma>{{hint:Anatomi}}</div>{{/Anatomi}}\n\n{{#Histologi}}<div class=hints id=bnb>{{hint:Histologi}}</div>{{/Histologi}}\n\n\n\n{{#Övrigt}}<div class=hints id=firstaid>{{hint:Övrigt}}</div>{{/Övrigt}}\n\n<div class=hints id=sketchy></div>\n\n<div class=hints id=physeo></div>\n\n<div class=hints id=additional></div>\n\n<br>\n{{#Tags}}\n<div id=\"tags-container\">{{Tags}}</div>\n<script>\nvar tagContainer = document.getElementById(\"tags-container\")\nif (tagContainer.childElementCount == 0) {\n var tagList= tagContainer.innerHTML.split(\" \");\n var kbdList = [];\n var newTagContent = document.createElement(\"div\");\n\n for (var i = 0; i < tagList.length;  i++) {\n  var newTag = document.createElement(\"kbd\");\n  newTag.innerHTML = tagList[i];\n  newTagContent.append(newTag)\n }\n tagContainer.innerHTML = newTagContent.innerHTML;\n tagContainer.style.cursor = \"default\";\n}\n</script>\n{{/Tags}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "Frågetext \n\n\n<div id=\"kard\">\n<div class=\"tags\">{{Tags}}</div>\n\n</div>\n\nSvarsalternativ\n{{#Minnesregler}}<div class=hints id=missed>{{hint:Svar}}</div>{{/Minnesregler}}\n<div style='font-family: Arial; font-size: 20px;'>{{Fråga}}</div>\n"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": []
+}
